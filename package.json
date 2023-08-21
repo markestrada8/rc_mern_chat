@@ -1,0 +1,19 @@
+{
+  "name": "rc_mern_chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon backend/server.js"
+  },
+  "author": "Mark Estrada <markestrada8@gmail.com> (https://www.npmjs.com/settings/markestrada8/profile)",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.4.3",
+    "nodemon": "^3.0.1"
+  }
+}
